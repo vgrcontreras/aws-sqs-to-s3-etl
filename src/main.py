@@ -6,9 +6,9 @@ from src.consumer import consumer_main
 import random
 
 def main() -> None:
-    queue_url = create_queue(queue_name='test3')
+    queue_url = create_queue()
 
-    for _ in range(0, random.randint(1, 5)):
+    for _ in range(0, random.randint(1, 10)):
         user = create_user()
         sqs_send_message(queue_url=queue_url, message=user)
 

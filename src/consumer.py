@@ -1,7 +1,6 @@
 from utils.aws_client import sqs_client, s3_client
 from loguru import logger
 from datetime import datetime
-from pathlib import Path
 import os
 import json
 from typing import Dict, Any
