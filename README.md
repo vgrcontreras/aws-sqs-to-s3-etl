@@ -15,6 +15,9 @@ Um pipeline que demonstra práticas modernas de engenharia de dados usando servi
 [Gerador de Dados] → [Amazon SQS] → [Consumidor/Processador] → [Amazon S3]
 ```
 
+![Descrição da imagem](media/architecture.png)
+
+
 1. **Geração de Dados**: Cria dados sintéticos de usuários usando a biblioteca Faker
 2. **Fila de Mensagens**: Envia dados para AWS SQS para processamento confiável de mensagens
 3. **Processamento do Consumidor**: Recupera mensagens, transforma dados para formato JSON
@@ -122,6 +125,8 @@ A pipeline that demonstrates modern data engineering practices using AWS service
 ```
 [Data Generator] → [Amazon SQS] → [Consumer/Processor] → [Amazon S3]
 ```
+
+![Descrição da imagem](media/architecture.png)
 
 1. **Data Generation**: Creates synthetic user data using Faker library
 2. **Message Queue**: Sends data to AWS SQS for reliable message processing
