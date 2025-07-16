@@ -16,4 +16,3 @@ def create_s3_bucket(bucket_name: str = 'aws-sqs-to-s3-etl-bucket') -> str:
 
 if __name__ == '__main__':
     bucket_name = create_s3_bucket()
-    print(bucket_name)
