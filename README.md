@@ -9,7 +9,7 @@
 
 Um pipeline que demonstra práticas modernas de engenharia de dados usando serviços AWS. Este projeto gera dados sintéticos de usuários, processa-os através de filas Amazon SQS e armazena os resultados em buckets Amazon S3.
 
-## 🏗️ Visão Geral da Arquitetura
+## Visão Geral da Arquitetura
 
 ```
 [Gerador de Dados] → [Amazon SQS] → [Consumidor/Processador] → [Amazon S3]
@@ -109,13 +109,6 @@ Exemplo de saída de log:
 2024-01-15 10:30:17 | INFO | users_20240115_103017.json enviado para aws-sqs-to-s3-etl-bucket com sucesso
 ```
 
-## 🧪 Dependências
-
-- **boto3**: SDK AWS para Python
-- **faker**: Geração de dados sintéticos
-- **loguru**: Capacidades avançadas de logging
-- **python-dotenv**: Gerenciamento de variáveis de ambiente
-
 ---
 
 # AWS SQS to S3 Pipeline (English)
@@ -124,7 +117,7 @@ Exemplo de saída de log:
 
 A pipeline that demonstrates modern data engineering practices using AWS services. This project generates synthetic user data, processes it through Amazon SQS queues, and stores the results in Amazon S3 buckets.
 
-## 🏗️ Architecture Overview
+## Architecture Overview
 
 ```
 [Data Generator] → [Amazon SQS] → [Consumer/Processor] → [Amazon S3]
@@ -224,9 +217,3 @@ Example log output:
 2024-01-15 10:30:17 | INFO | users_20240115_103017.json uploaded to aws-sqs-to-s3-etl-bucket successfully
 ```
 
-## 🧪 Dependencies
-
-- **boto3**: AWS SDK for Python
-- **faker**: Synthetic data generation
-- **loguru**: Advanced logging capabilities
-- **python-dotenv**: Environment variable management
